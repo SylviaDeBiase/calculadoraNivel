@@ -1,0 +1,73 @@
+body {
+    font-family: cursive;
+    background-color: #1a1a1d;
+    color: #c5c6c7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+h1.titulo {
+    font-size: 2.5em;
+    color: #66fcf1;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0 #45a29e, 4px 4px 0 #0b0c10;
+}
+
+form {
+    background-color: #0b0c10;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px #45a29e;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box; 
+}
+
+form h2 {
+    font-size: 1.5em;
+    color: #66fcf1;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 0 #45a29e, 2px 2px 0 #0b0c10;
+}
+
+form input[type="number"] {
+    width: calc(100% - 24px); 
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #45a29e;
+    border-radius: 5px;
+    background-color: #1f2833;
+    color: #c5c6c7;
+    font-size: 1em;
+    box-shadow: inset 0 0 5px #45a29e;
+}
+
+form button.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #45a29e;
+    color: #0b0c10;
+    font-size: 1em;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+form button.btn:hover {
+    background-color: #66fcf1;
+}
+
+.mensagem {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #66fcf1;
+    text-shadow: 1px 1px 0 #45a29e, 2px 2px 0 #0b0c10;
+}
+
